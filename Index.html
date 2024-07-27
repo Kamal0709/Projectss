@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Library</title>
+<style>
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 200px; /* Adjusted to ensure it is below the navbar and image */
+    color: red;
+    font-style: italic;
+    font-weight: 200;
+}
+h2 {
+    color: black;
+    font-style: italic;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 2;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.navbar li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.navbar li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.navbar li a:hover {
+    color: blue;
+}
+.top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 60px; /* Adjust to ensure image is below the navbar */
+}
+</style>
+</head>
+<body>
+<header class="top">
+<nav class="navbar">
+    <ul>
+        <li><a href="REGISTER.html">Register</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li><a href="LOGIN.html">Login</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+    </ul>
+</nav>
+<img src="https://images6.alphacoders.com/389/thumb-1920-389877.jpg" alt="Library Image">
+</header>
+<h1>College Library Management System</h1>
+</body>
+</html>
